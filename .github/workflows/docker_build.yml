@@ -23,7 +23,7 @@ jobs:
          context: ./
          push: true
          dockerfile: ./Dockerfile   # Specify the path to your Dockerfile here
-         tags: hfranklin
+         tags: hfranklin:latest
  deploy:
    runs-on: ubuntu-latest
    steps:
